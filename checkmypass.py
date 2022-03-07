@@ -19,6 +19,8 @@ def get_password_leaks_count(hashes, hash_to_check):
     return 0
 
 
+# Function hashes password using SHA1 algorithm then provides only the first 5 char of the hashed value to be used
+# to request API data.
 def pwned_api_check(password):
     sha1password = hashlib.sha1(password.encode('utf-8')).hexdigest().upper()
     # Grab the first 5 char of hashed data and then the rest of the char after first 5:
