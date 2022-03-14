@@ -10,6 +10,7 @@ It then loops through the data locally to check for matches with the rest of the
 password was leaked.
 
 Sample output shown below
-(Input password used in sample: HelloWorld!, HelloWorld!123@##, password)
+(Input password used in sample: password and HelloWorld!)
 
-![Screen Shot 2022-03-14 at 3 06 33 PM](https://user-images.githubusercontent.com/39870122/158252486-1c21ffda-31e8-4ee2-b2aa-e8704077ec00.png)
+![Screen Shot 2022-03-14 at 3 09 38 PM](https://user-images.githubusercontent.com/39870122/158252961-d9a5d7bc-7f4f-484f-9f3c-b481c7627b0e.png)
+
